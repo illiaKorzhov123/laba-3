@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src = 'script.js' defer></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Лабораторная №3</title>
+	<script src='script.js' defer></script>
 </head>
+
 <body>
-    <h1>Коржов Лабораторная работа 3</h1>
-    <div>
-        <div>
-            
-            <select class = 'select' onchange="handler()">
-                <option value="0SXAklSfD7E.jpg">img 1</option>
-                <option value="400_0_1656497312-3436.jpg">img 2</option>
-                <option value="besplatnye-kartinki.jpg">img 2</option>
-                <option value="cropped-matt-palmer-tmetg2ky59m-unsplash-1928x1085.jpg">img 3</option>
-                <option value="kartinki-vertikalnye-na-telefon-3.jpg">img 4</option>
-                <option value="1617068822_1-p-oboi-krasivie-kartinki-na-rabochii-stol-pr-1.jpg">img 5</option>
+	<h1>Коржов Лабораторная работа 3</h1>
+	<div>
+		<div>
+			<select class='select' onchange="handler()">
+				<option value="./img/1.jpg">img 1</option>
+				<option value="./img/2.jpg">img 2</option>
+				<option value="./img/3.jpg">img 3</option>
+				<option value="./img/4.jpg">img 4</option>
+				<option value="./img/5.jpg">img 5</option>
+				<option value="./img/6.jpg">img 6</option>
+			</select>
 
-            </select>
-            <button onClick="width()">ширина картинок</button>
-            <button onClick="height()">высота картинок</button>
-            <button onClick = "border()">размер рамки</button>
-            <button onClick = "alt()">альтернативный текст</button>
-        </div>
+			<button onClick="width()">ширина</button>
+			<button onClick="height()">высота</button>
+			<button onClick="border()">размер рамки</button>
+			<button onClick="alt()">альтернативный текст</button>
+		</div>
 
-        <div><img src="" alt="img" class = 'img'></div>
-    </div>
+		<div><img src="" alt="img" class='img'></div>
+	</div>
 </body>
+
 </html>
